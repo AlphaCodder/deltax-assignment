@@ -1,22 +1,24 @@
+import React, { Component } from 'react';
+import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Home from './components/Home';
+import AddSong from './components/AddSong';
 import './App.css';
-import Songs from './Songs';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header bg-dark text-reset">
-        <h1> HOME </h1>
-      </header>
-        <div className='container-fluid'>
-          <div className='col-3'><h2>Top 10 Songs</h2></div>
-          <div className='col-6'><button className='App-btn'>Add Songs</button></div>
-        </div>
-
-        <Songs />
-        <h2>Top 10 Artists</h2>
-  
-    </div>
-  );
+class App extends Component {
+render() {
+	return (
+	<Router>
+		<div className="App">
+			<Header />
+		<Routes>
+				<Route exact path='/' element={< Home />}></Route>
+				<Route exact path='/addsong' element={< AddSong />}></Route>
+		</Routes>
+		</div>
+	</Router>
+);
+}
 }
 
 export default App;
