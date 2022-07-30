@@ -1,5 +1,7 @@
 import '../App.css';
-// import StarRating from './StarRating';
+
+// Artists table fetching data from API
+
 
 function ArtitstsHead (){
     return(

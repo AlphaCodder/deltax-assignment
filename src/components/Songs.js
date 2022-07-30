@@ -1,6 +1,7 @@
 import '../App.css';
 import StarRating from './StarRating';
 
+// Songs table fetching data from API
 function SongHead (){
     return(
     <thead>

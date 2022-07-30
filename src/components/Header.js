@@ -1,9 +1,11 @@
 import '../App.css'
 import { Link } from 'react-router-dom';
 
+// Header for the App
+
 function Header() {
     return (
-        <header className="App-header bg-dark text-reset">
+        <header className="navbar navbar-expand-lg navbar-dark bg-dark">
            <h1><Link to="/">Home</Link></h1>
         </header>
     );

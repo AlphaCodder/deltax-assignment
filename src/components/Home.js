@@ -1,9 +1,10 @@
 import React from 'react';
 import Songs  from './Songs';
 import Artists from './Artists';
-import AddPlus from './AddPlus';
+import { AddPlus } from './AddPlus';
 import { Link } from 'react-router-dom';
  
+// Home page
 const Home = () => {
     return (
         <div className="App">
