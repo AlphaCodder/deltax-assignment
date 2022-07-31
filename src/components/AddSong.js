@@ -36,7 +36,7 @@ export default function AddSong() {
                 </div>
                 <div class="form-group row">
                     <div className=" col-md-6">
-                    <Link to="/">
+                    <Link to="/deltax-assignment">
                         <button type="cancel" class="btn btn-primary">Cancel</button>
                     </Link>
                     <button type="submit" class="btn btn-primary">Submit</button>
