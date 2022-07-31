@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Header() {
     return (
         <header className="navbar navbar-expand-lg navbar-dark bg-dark">
-           <h1><Link to="deltax-assignment/">Home</Link></h1>
+           <h1><Link to="/deltax-assignment">Home</Link></h1>
         </header>
     );
 }
