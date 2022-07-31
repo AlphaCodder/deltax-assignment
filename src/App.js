@@ -13,7 +13,7 @@ render() {
 			<div className="App">
 				<Header />
 			<Routes>
-					<Route exact path='/' element={< Home />}></Route>
+					<Route exact path='/deltax-assignment' element={< Home />}></Route>
 					<Route exact path='/addsong' element={< AddSong />}></Route>
 			</Routes>
 			</div>
